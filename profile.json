@@ -1,0 +1,197 @@
+{
+  "personal_information": {
+    "full_name": "Dheeraj Sharma",
+    "contact": {
+      "email": "dheerajofficial2306@gmail.com",
+      "phone": "",
+      "location": "Ghaziabad, Uttar Pradesh, India",
+      "timezone": "IST"
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/dheerajsharma2399",
+      "github": "https://github.com/dheerajsharma2399",
+      "portfolio": "https://dheeraj.mooh.me"
+    },
+    "summary": "Software Engineer with ~2 years of experience (including internships) bridging the gap between scalable backend systems and intuitive user interfaces. Expert in building offline-first PWAs, autonomous AI agents, and cost-optimized cloud architectures. Proven track record of reducing infrastructure costs by 70% and latency by 60% through engineering optimizations."
+  },
+  "work_experience": [
+    {
+      "company": "Sonar Instruments and Technology Pvt Ltd",
+      "role": "Software Engineer Intern",
+      "location": "Ghaziabad, India",
+      "start_date": "Feb 2025",
+      "end_date": "Present",
+      "key_achievements": [
+        "Architected a scalable IoT backend handling 20,000+ daily MQTT events, reducing data ingestion latency by 35% using Python and AWS IoT Core[cite: 86].",
+        "Developed a real-time monitoring dashboard visualizing 20,000+ data points daily, improving operator response time by 25%[cite: 7].",
+        "Deployed predictive ML models (TensorFlow) that improved equipment failure detection by 12% (F1 Score) and reduced downtime by 25%[cite: 122].",
+        "Engineered robust CI/CD pipelines with GitHub Actions and Docker, cutting deployment cycles from 20 minutes to 12 minutes[cite: 10].",
+        "Optimized API response times by 40% through FastAPI implementation and Docker containerization[cite: 9].",
+        "Automated data labeling with GPT-4 API integration, reducing manual preparation time by 40%[cite: 123]."
+      ],
+      "technologies": ["Python", "AWS IoT Core", "FastAPI", "Docker", "React", "TensorFlow", "GitHub Actions"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "osho-app",
+      "name": "OshoApp - Spiritual Audio Platform",
+      "type": "Full-Stack PWA",
+      "repo_url": "https://github.com/dheerajsharma2399/oho-app",
+      "tech_stack": ["Next.js 15", "React 19", "Supabase", "Meilisearch", "AWS/Dokploy", "Docker"],
+      "description": "A minimalist spiritual audio platform hosting 5,400+ discourses with synchronized transcripts and offline support.",
+      "metrics": [
+        "Reduced cloud infrastructure costs by 70% by migrating to self-hosted AWS EC2 via Dokploy[cite: 16, 108].",
+        "Achieved sub-50ms search latency across millions of words using Meilisearch[cite: 16].",
+        "Attained 100/100 Lighthouse Performance score via Next.js 15 optimizations[cite: 13]."
+      ],
+      "key_features": [
+        "Persistent audio player with 'karaoke-style' synchronized transcripts[cite: 14].",
+        "Offline-first architecture caching up to 500MB of content[cite: 15].",
+        "AES-256-GCM encryption for secure audio streaming[cite: 16]."
+      ]
+    },
+    {
+      "id": "telegram-bot-v2",
+      "name": "Telegram Job Scraper Bot v2",
+      "type": "Automation & ETL",
+      "repo_url": "https://github.com/dheerajsharma2399/telegram-automate",
+      "tech_stack": ["Python", "Telethon", "OpenRouter LLM", "PostgreSQL", "Flask", "AsyncIO"],
+      "description": "Comprehensive automation suite monitoring Telegram groups for job postings, parsing them with AI, and syncing to databases.",
+      "metrics": [
+        "Processes 1,000+ daily messages with 99.9% pipeline reliability[cite: 57].",
+        "Reduced manual job sourcing time by 90%[cite: 97].",
+        "Achieved 90% extraction accuracy converting unstructured text to JSON via GPT-4[cite: 96]."
+      ],
+      "key_features": [
+        "Fault-tolerant ETL pipeline with dead-letter queues[cite: 57].",
+        "Kanban-style web dashboard for application tracking[cite: 28].",
+        "AI-powered duplicate detection and relevance classification."
+      ]
+    },
+    {
+      "id": "dumroo-ai",
+      "name": "Dumroo AI Admin Panel",
+      "type": "AI Analytics",
+      "repo_url": "https://github.com/dheerajsharma2399/dumroo",
+      "tech_stack": ["Streamlit", "LangChain", "Plotly", "Supabase RBAC"],
+      "description": "EdTech analytics dashboard enabling natural language querying of student data.",
+      "metrics": [
+        "Reduced administrative reporting time by 60%[cite: 25].",
+        "Achieved 85% accuracy in Text-to-SQL query generation[cite: 24]."
+      ],
+      "key_features": [
+        "Natural language interface for complex database queries[cite: 24].",
+        "Role-Based Access Control (RBAC) for data security.",
+        "Interactive visualizations for student trends."
+      ]
+    },
+    {
+      "id": "asset-tracker",
+      "name": "Modern Asset Tracker",
+      "type": "Fintech Dashboard",
+      "repo_url": "https://github.com/dheerajsharma2399",
+      "tech_stack": ["Next.js 14", "TypeScript", "Tailwind CSS", "Supabase Auth"],
+      "description": "Real-time crypto and stock portfolio tracker with secure authentication.",
+      "metrics": [
+        "Sub-100ms response times for price updates via edge caching[cite: 21].",
+        "Zero unauthorized access incidents due to strict RLS policies[cite: 20]."
+      ],
+      "key_features": [
+        "Real-time integration with CoinGecko and Alpha Vantage APIs[cite: 21].",
+        "Secure JWT-based authentication flow[cite: 20]."
+      ]
+    },
+    {
+      "id": "hft-bot",
+      "name": "High-Frequency Trading Bot",
+      "type": "Algorithmic Trading",
+      "repo_url": "https://github.com/dheerajsharma2399/binance-futures-bot",
+      "tech_stack": ["Python", "FastAPI", "Redis", "Docker", "WebSockets"],
+      "description": "Low-latency trading engine for Binance Futures.",
+      "metrics": [
+        "Achieved <200ms order execution latency[cite: 70].",
+        "Maintained 99.9% uptime on testnet[cite: 70].",
+        "Reduced bandwidth usage by 60% using WebSockets instead of polling[cite: 101]."
+      ],
+      "key_features": [
+        "Redis for sub-millisecond state management[cite: 71].",
+        "Automated local stop-loss triggers."
+      ]
+    },
+    {
+      "id": "financial-rag",
+      "name": "Financial Document RAG System",
+      "type": "Privacy-First AI",
+      "repo_url": "https://github.com/dheerajsharma2399/financial-doc-qa",
+      "tech_stack": ["LangChain", "Ollama", "Mistral-7B", "FAISS"],
+      "description": "Offline RAG system for analyzing sensitive financial documents.",
+      "metrics": [
+        "100% data sovereignty (runs entirely offline)[cite: 137].",
+        "Reduced manual analysis time by 80%[cite: 139]."
+      ],
+      "key_features": [
+        "Recursive character text splitting for context preservation[cite: 110].",
+        "Local vector embeddings using FAISS[cite: 111]."
+      ]
+    },
+    {
+      "id": "task-agent",
+      "name": "Autonomous Task Planning Agent",
+      "type": "Agentic AI",
+      "repo_url": "https://github.com/dheerajsharma2399/ai-task-planning-agent",
+      "tech_stack": ["Python", "LangChain", "Multi-Agent Systems", "SQLite"],
+      "description": "Agent system capable of recursive goal decomposition.",
+      "metrics": [
+        "90% logical consistency in breaking down complex goals[cite: 132].",
+        "Reduced hallucination rates by 40% via external tool use[cite: 133]."
+      ],
+      "key_features": [
+        "External tool integration (Search, Weather)[cite: 133].",
+        "Model-agnostic backend (Ollama, Gemini, OpenRouter)[cite: 134]."
+      ]
+    },
+    {
+      "id": "scrap-classification",
+      "name": "End-to-End ML Pipeline",
+      "type": "Computer Vision",
+      "repo_url": "https://github.com/dheerajsharma2399/thrashnet",
+      "tech_stack": ["PyTorch", "ONNX", "OpenCV", "ResNet18"],
+      "description": "Edge-optimized waste classification system.",
+      "metrics": [
+        "98% validation accuracy on TrashNet dataset[cite: 146].",
+        "Reduced inference latency by 60% via ONNX export[cite: 147]."
+      ],
+      "key_features": [
+        "Automated MLOps training and versioning pipeline[cite: 148].",
+        "Optimized for edge deployment[cite: 147]."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Manipal University, Jaipur",
+      "duration": "Aug 2023 – Aug 2025",
+      "details": "CGPA: 8.74"
+    },
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "Chaudhary Charan Singh University",
+      "duration": "Jul 2019 – Jul 2022"
+    }
+  ],
+  "technical_skills": {
+    "languages": ["Python (Expert)", "JavaScript/TypeScript", "SQL", "Bash"],
+    "frontend": ["Next.js 15", "React 19", "Tailwind CSS", "Shadcn/ui", "Flutter"],
+    "backend": ["FastAPI", "Node.js", "Supabase", "Django", "Flask", "WebSockets"],
+    "ai_ml": ["LangChain", "TensorFlow", "PyTorch", "RAG", "Ollama", "OpenRouter"],
+    "data_infrastructure": ["PostgreSQL", "Redis", "Meilisearch", "Kafka", "Airflow"],
+    "devops_cloud": ["AWS (EC2, IoT, Lambda)", "Docker", "GitHub Actions", "Dokploy", "Nginx"]
+  },
+  "certifications": [
+    "Google IT Support Specialization (2024)",
+    "System Administration and IT Infrastructure Services (2024)",
+    "Software Engineering Specialization – University of Hong Kong (2023)"
+  ]
+}

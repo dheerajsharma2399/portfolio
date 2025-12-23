@@ -11,7 +11,7 @@ export const portfolioData = {
       github: "https://github.com/dheerajsharma2399",
       portfolio: "https://dheeraj.dev"
     },
-    summary: "Software Engineer with ~5 years of experience (including internships) bridging the gap between scalable backend systems and intuitive user interfaces. Expert in building offline-first PWAs, autonomous AI agents, and cost-optimized cloud architectures. Proven track record of reducing infrastructure costs by 70% and latency by 60% through engineering optimizations. Reach me at dheerajofficial2306@gmail.com."
+    summary: "Software Engineer with ~2 years of experience (including internships) bridging the gap between scalable backend systems and intuitive user interfaces. Expert in building offline-first PWAs, autonomous AI agents, and cost-optimized cloud architectures. Proven track record of reducing infrastructure costs by 70% and latency by 60% through engineering optimizations. Reach me at dheerajofficial2306@gmail.com."
   },
   work_experience: [
     {
@@ -35,10 +35,16 @@ export const portfolioData = {
     {
       id: "osho-app",
       title: "OshoApp - Spiritual Audio Platform",
-      description: "A minimalist spiritual audio platform hosting 5,400+ discourses with synchronized transcripts and offline support.",
-      tech: ["Next.js 15", "React 19", "Supabase", "Meilisearch", "AWS/Dokploy", "Docker"],
+      des: "A minimalist spiritual audio platform hosting 5,400+ discourses with synchronized transcripts and offline support.",
+      tech: ["Next.js", "Supabase", "Meilisearch", "Docker"],
+      iconLists: [
+        "https://cdn.simpleicons.org/nextdotjs",
+        "https://cdn.simpleicons.org/supabase",
+        "https://cdn.simpleicons.org/meilisearch",
+        "https://cdn.simpleicons.org/docker"
+      ],
       link: "https://github.com/dheerajsharma2399/oho-app",
-      image: "/images/placeholder.png",
+      img: "/images/osho-app.png",
       key_features: [
         "Persistent audio player with 'karaoke-style' synchronized transcripts.",
         "Offline-first architecture caching up to 500MB of content.",
@@ -48,10 +54,15 @@ export const portfolioData = {
     {
       id: "telegram-bot-v2",
       title: "Telegram Job Scraper Bot v2",
-      description: "Comprehensive automation suite monitoring Telegram groups for job postings, parsing them with AI, and syncing to databases.",
-      tech: ["Python", "Telethon", "OpenRouter LLM", "PostgreSQL", "Flask", "AsyncIO"],
+      des: "Comprehensive automation suite monitoring Telegram groups for job postings, parsing them with AI, and syncing to databases.",
+      tech: ["Python", "PostgreSQL", "Flask"],
+      iconLists: [
+        "https://cdn.simpleicons.org/python",
+        "https://cdn.simpleicons.org/postgresql",
+        "https://cdn.simpleicons.org/flask"
+      ],
       link: "https://github.com/dheerajsharma2399/telegram-automate",
-      image: "/images/placeholder.png",
+      img: "/images/telegram-automate.png",
       key_features: [
         "Fault-tolerant ETL pipeline with dead-letter queues.",
         "Kanban-style web dashboard for application tracking.",
@@ -61,10 +72,15 @@ export const portfolioData = {
     {
       id: "dumroo-ai",
       title: "Dumroo AI Admin Panel",
-      description: "EdTech analytics dashboard enabling natural language querying of student data.",
-      tech: ["Streamlit", "LangChain", "Plotly", "Supabase RBAC"],
+      des: "EdTech analytics dashboard enabling natural language querying of student data.",
+      tech: ["Streamlit", "LangChain", "Supabase"],
+      iconLists: [
+        "https://cdn.simpleicons.org/streamlit",
+        "https://cdn.simpleicons.org/langchain",
+        "https://cdn.simpleicons.org/supabase"
+      ],
       link: "https://github.com/dheerajsharma2399/dumroo",
-      image: "/images/placeholder.png",
+      img: "/images/dumroo.png",
       key_features: [
         "Natural language interface for complex database queries.",
         "Role-Based Access Control (RBAC) for data security.",
@@ -74,10 +90,16 @@ export const portfolioData = {
     {
       id: "asset-tracker",
       title: "Modern Asset Tracker",
-      description: "Real-time crypto and stock portfolio tracker with secure authentication.",
-      tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "Supabase Auth"],
+      des: "Real-time crypto and stock portfolio tracker with secure authentication.",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
+      iconLists: [
+        "https://cdn.simpleicons.org/nextdotjs",
+        "https://cdn.simpleicons.org/typescript",
+        "https://cdn.simpleicons.org/tailwindcss",
+        "https://cdn.simpleicons.org/supabase"
+      ],
       link: "https://github.com/dheerajsharma2399",
-      image: "/images/placeholder.png",
+      img: "/images/trading.png",
       key_features: [
         "Real-time integration with CoinGecko and Alpha Vantage APIs.",
         "Secure JWT-based authentication flow."
@@ -86,10 +108,16 @@ export const portfolioData = {
     {
       id: "hft-bot",
       title: "High-Frequency Trading Bot",
-      description: "Low-latency trading engine for Binance Futures.",
-      tech: ["Python", "FastAPI", "Redis", "Docker", "WebSockets"],
+      des: "Low-latency trading engine for Binance Futures.",
+      tech: ["Python", "FastAPI", "Redis", "Docker"],
+      iconLists: [
+        "https://cdn.simpleicons.org/python",
+        "https://cdn.simpleicons.org/fastapi",
+        "https://cdn.simpleicons.org/redis",
+        "https://cdn.simpleicons.org/docker"
+      ],
       link: "https://github.com/dheerajsharma2399/binance-futures-bot",
-      image: "/images/placeholder.png",
+      img: "/images/trading-bot.png",
       key_features: [
         "Redis for sub-millisecond state management.",
         "Automated local stop-loss triggers."
@@ -98,10 +126,14 @@ export const portfolioData = {
     {
       id: "financial-rag",
       title: "Financial Document RAG System",
-      description: "Offline RAG system for analyzing sensitive financial documents.",
-      tech: ["LangChain", "Ollama", "Mistral-7B", "FAISS"],
+      des: "Offline RAG system for analyzing sensitive financial documents.",
+      tech: ["LangChain", "Ollama", "Mistral"],
+      iconLists: [
+        "https://cdn.simpleicons.org/langchain",
+        "https://cdn.simpleicons.org/ollama"
+      ],
       link: "https://github.com/dheerajsharma2399/financial-doc-qa",
-      image: "/images/placeholder.png",
+      img: "/images/financial-rag.png",
       key_features: [
         "Recursive character text splitting for context preservation.",
         "Local vector embeddings using FAISS."
@@ -110,10 +142,15 @@ export const portfolioData = {
     {
       id: "task-agent",
       title: "Autonomous Task Planning Agent",
-      description: "Agent system capable of recursive goal decomposition.",
-      tech: ["Python", "LangChain", "Multi-Agent Systems", "SQLite"],
+      des: "Agent system capable of recursive goal decomposition.",
+      tech: ["Python", "LangChain", "SQLite"],
+      iconLists: [
+        "https://cdn.simpleicons.org/python",
+        "https://cdn.simpleicons.org/langchain",
+        "https://cdn.simpleicons.org/sqlite"
+      ],
       link: "https://github.com/dheerajsharma2399/ai-task-planning-agent",
-      image: "/images/placeholder.png",
+      img: "/images/ai-task-planning-agent.png",
       key_features: [
         "External tool integration (Search, Weather).",
         "Model-agnostic backend (Ollama, Gemini, OpenRouter)."
@@ -122,10 +159,14 @@ export const portfolioData = {
     {
       id: "scrap-classification",
       title: "End-to-End ML Pipeline",
-      description: "Edge-optimized waste classification system.",
-      tech: ["PyTorch", "ONNX", "OpenCV", "ResNet18"],
+      des: "Edge-optimized waste classification system.",
+      tech: ["PyTorch", "OpenCV"],
+      iconLists: [
+        "https://cdn.simpleicons.org/pytorch",
+        "https://cdn.simpleicons.org/opencv"
+      ],
       link: "https://github.com/dheerajsharma2399/thrashnet",
-      image: "/images/placeholder.png",
+      img: "/images/thrashnet.png",
       key_features: [
         "Automated MLOps training and versioning pipeline.",
         "Optimized for edge deployment."

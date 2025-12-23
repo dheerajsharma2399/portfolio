@@ -28,7 +28,14 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
+# Copy entrypoint script
+COPY --from=builder /app/entrypoint.sh ./entrypoint.sh
+USER root
+RUN chmod +x ./entrypoint.sh
 USER nextjs
+
 EXPOSE 3000
 
+# Set entrypoint to our custom script, passing the original CMD as arguments
+ENTRYPOINT ["./entrypoint.sh"]
 CMD ["node", "server.js"]

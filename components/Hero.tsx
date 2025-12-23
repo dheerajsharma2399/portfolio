@@ -37,7 +37,7 @@ export function Hero() {
             <Link
               href={links.github}
               target="_blank"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-muted transition-colors"
             >
               <Github size={20} />
               GitHub
@@ -55,7 +55,7 @@ export function Hero() {
               The user will mount their local folder containing 'resume.pdf' to /app/public inside the container.
             */}
              <a
-              href="/resume.pdf"
+              href="/Dheeraj_Fullstack_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-muted transition-colors cursor-pointer"

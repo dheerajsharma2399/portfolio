@@ -14,9 +14,9 @@ services:
     networks:
       - dokploy-network
     volumes:
-      # Mount the local folder to the container's public directory
-      # This allows updating resume.pdf and images without rebuilding
-      - /home/ubuntu/portfolio:/app/public
+      # Mount the local folder to 'overrides' instead of 'public'
+      # The entrypoint.sh script will merge these files into 'public' at startup
+      - /home/ubuntu/portfolio:/app/overrides
 
 networks:
   dokploy-network:

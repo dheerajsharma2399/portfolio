@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a; /* Slate 900 */
+  --background: #000319; /* Deep Indigo/Black requested */
+  --foreground: #f8fafc;
 }
 
 @theme inline {
@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #020617; /* Slate 950 - Rich Dark Blue/Black */
-    --foreground: #f8fafc; /* Slate 50 */
+    --background: #000319;
+    --foreground: #f8fafc;
   }
 }
 

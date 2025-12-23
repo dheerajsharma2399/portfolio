@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, MessageCircle } from "lucide-react";
+import { Mail, Github, Linkedin, MessageCircle, FileDown } from "lucide-react";
 import Link from "next/link";
 import { portfolioData } from "@/data/portfolio";
 
@@ -30,7 +30,15 @@ export function Contact() {
             <span>{contact.email}</span>
           </Link>
           
-
+           <a
+            href="/Dheeraj_Fullstack_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-6 py-3 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 transition-all cursor-pointer"
+          >
+            <FileDown size={20} className="text-purple-400" />
+            <span>Download Resume</span>
+          </a>
         </div>
 
         <div className="flex gap-4 pt-4">
