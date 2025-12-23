@@ -9,7 +9,7 @@ export const portfolioData = {
     links: {
       linkedin: "https://www.linkedin.com/in/dheerajsharma2399",
       github: "https://github.com/dheerajsharma2399",
-      portfolio: "https://dheeraj.dev"
+      portfolio: "https://dheeraj.mooh.me"
     },
     summary: "Software Engineer with ~2 years of experience (including internships) bridging the gap between scalable backend systems and intuitive user interfaces. Expert in building offline-first PWAs, autonomous AI agents, and cost-optimized cloud architectures. Proven track record of reducing infrastructure costs by 70% and latency by 60% through engineering optimizations. Reach me at dheerajofficial2306@gmail.com."
   },

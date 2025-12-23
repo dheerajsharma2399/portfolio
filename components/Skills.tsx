@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
+import { getTechColor, cn } from "@/lib/utils";
 
 export function Skills() {
   const { technical_skills } = portfolioData;
@@ -42,7 +43,10 @@ export function Skills() {
               {category.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium text-muted-foreground ring-1 ring-inset ring-gray-500/10"
+                  className={cn(
+                    "inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ring-opacity-20",
+                    getTechColor(skill)
+                  )}
                 >
                   {skill}
                 </span>

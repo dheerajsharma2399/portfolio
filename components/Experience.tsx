@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
+import { getTechColor, cn } from "@/lib/utils";
 
 export function Experience() {
   const { work_experience } = portfolioData;
@@ -51,7 +52,10 @@ export function Experience() {
               {job.technologies.map((tech) => (
                 <span
                   key={tech}
-                  className="px-2 py-1 text-xs rounded-md bg-muted/50 text-muted-foreground border border-border/50"
+                  className={cn(
+                    "px-2 py-1 text-xs rounded-md border font-medium transition-colors hover:bg-opacity-20",
+                    getTechColor(tech)
+                  )}
                 >
                   {tech}
                 </span>
