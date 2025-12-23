@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  portfolio:
+    image: portfolio:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - dokploy-network
+    volumes:
+      # Mount the local folder to the container's public directory
+      # This allows updating resume.pdf and images without rebuilding
+      - /home/ubuntu/portfolio:/app/public
+
+networks:
+  dokploy-network:
+    external: true
